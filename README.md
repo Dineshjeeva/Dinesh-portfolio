@@ -1,4 +1,4 @@
-<h2 align="center">Personal Portfolio <br/> <a target="_blank" href="https://portfolio-devanshsahni.vercel.app/">devanshsahni</a></h2>
+<h2 align="center">Personal Portfolio <br/> <a target="_blank" href="https://dineshmanikandan.netlify.app/">Dinesh</a></h2>
 
 <br/>
 
@@ -14,7 +14,6 @@
   <li>React.js</li>
   <li>Git</li>
   <li>npm packages</li>
-  <li>Vercel</li>
 </ul>
 
 <p>Some of the features of this website are:</p>
