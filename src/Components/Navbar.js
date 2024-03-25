@@ -44,8 +44,19 @@ const Nav = () => {
         title="Reload"
         onClick={() => window.location.reload(true)}
         className="Logo"
+        style={{
+          color: "white",
+        }}
       >
-        Dinesh
+        <span
+          style={{
+            color: "#9067C6",
+            textDecoration: "underline",
+          }}
+        >
+          D
+        </span>
+        inesh
       </h1>
 
       <div className="Hamburger" onClick={showMenu}>
