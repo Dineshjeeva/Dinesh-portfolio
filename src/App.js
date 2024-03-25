@@ -50,8 +50,6 @@ function App() {
             <Route path="/Project" element={<Project />} />
             <Route path="/Resume" element={<Resume />} />
           </Routes>
-
-          {/* <Footer/> */}
         </div>
       )}
     </>
