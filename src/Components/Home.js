@@ -14,12 +14,23 @@ const Home = () => {
     <div>
       <div className="HomePage">
         <div className="HomeText">
-          <h1>Hi There!</h1>
-          <h1>
+          <h1 className="first_image" style={{ fontSize: "150px" }}>
+            Imagine
+          </h1>
+          <h1
+            className="first_image"
+            style={{ textAlign: "end", fontSize: "150px" }}
+          >
+            Develop
+          </h1>
+          <h1 className="first_image" style={{ fontSize: "150px" }}>
+            Execute
+          </h1>
+          {/* <h1>
             I'M <b>DINESH MANIKANDAN TS</b>
           </h1>
-          <Typed />
-          <div className="footerLinks">
+          <Typed /> */}
+          {/* <div className="footerLinks">
             <div
               style={{
                 borderRight: "1px solid",
@@ -63,10 +74,10 @@ const Home = () => {
                 <GrMail />
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
 
-        <Lottie className="illustration" animationData={SpaceBoy} loop={true} />
+        {/* <Lottie className="illustration" animationData={SpaceBoy} loop={true} /> */}
       </div>
       <div class="container-running">
         <div class="text-running">

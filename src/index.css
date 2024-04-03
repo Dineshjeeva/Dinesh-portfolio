@@ -9,6 +9,7 @@
   position: relative;
   overflow-x: hidden;
   -webkit-tap-highlight-color: transparent;
+  background-color: black;
 }
 
 .loader {
@@ -20,7 +21,7 @@
 
 body {
   font-family: "Raleway", sans-serif;
-  background-color: #031926;
+  background-color: black;
   color: #e7e7e7;
   min-height: 100vh;
 }
@@ -36,11 +37,11 @@ b {
   scroll-behavior: smooth;
 }
 ::-webkit-scrollbar-track {
-  background: #274656;
+  background: #b4c3cb;
   border-radius: 100px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #01111a;
+  background: black;
   border-radius: 100px;
 }
 
@@ -203,13 +204,27 @@ b {
 
 /* HOME PAGE */
 
+.first_image {
+  background-image: url("../src//Components/second.jpeg"); /* Replace 'your-image-url.jpg' with the URL of your image */
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* margin-top: 200px; */
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: none;
+  font-weight: 800;
+  -webkit-font-smoothing: antialiased;
+}
+
 .HomePage {
-  display: flex;
-  justify-content: space-evenly;
   min-height: 80vh;
   margin-top: 100px;
   margin-bottom: -50px;
   align-items: center;
+  max-width: 1300px;
+  width: 100%;
+  padding: 0 100px;
 }
 .HomeText h1 {
   font-weight: 600;
