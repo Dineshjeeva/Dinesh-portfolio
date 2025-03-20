@@ -53,7 +53,7 @@ const Home = () => {
               }}
             >
               <a
-                href="www.linkedin.com/in/dineshinlink"
+                href="https://www.linkedin.com/in/dineshinlink/"
                 target="_blank"
                 rel="noreferrer"
               >
