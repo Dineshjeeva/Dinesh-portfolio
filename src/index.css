@@ -209,7 +209,6 @@ b {
   background-repeat: repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  /* margin-top: 200px; */
   font-size: 10px;
   font-weight: bold;
   text-transform: none;
@@ -218,6 +217,7 @@ b {
 }
 
 .HomePage {
+  justify-content: space-between;
   min-height: 80vh;
   margin-top: 100px;
   margin-bottom: -50px;
@@ -225,6 +225,7 @@ b {
   max-width: 1300px;
   width: 100%;
   padding: 0 100px;
+  display: flex;
 }
 .HomeText h1 {
   font-weight: 600;
