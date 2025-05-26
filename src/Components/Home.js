@@ -14,18 +14,7 @@ const Home = () => {
     <div>
       <div className="HomePage">
         <div className="HomeText">
-          {/* <h1 className="first_image" style={{ fontSize: "150px" }}>
-            Imagine
-          </h1>
-          <h1
-            className="first_image"
-            style={{ textAlign: "end", fontSize: "150px" }}
-          >
-            Develop
-          </h1>
-          <h1 className="first_image" style={{ fontSize: "150px" }}>
-            Execute
-          </h1> */}
+          
           <h1>
             I'M <b>DINESH MANIKANDAN TS</b>
           </h1>

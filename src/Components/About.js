@@ -9,37 +9,121 @@ const About = () => {
     <>
       <div className="AboutPage">
         <div className="AboutText">
-          <h1 className="AboutTextHeading">
+          <h1>About Meß</h1>
+          <p style={{fontSize:"12px",marginBottom:'2rem'}}>
             Get to <b>know</b> me!
-          </h1>
+          </p>
           <p>
-            Hi, my name is <b>Dinesh Manikandan TS</b> and I am from{" "}
-            <b>Madurai, India</b>. I'm a <b>Front-End Developer</b> specializing
-            in <b>React JS</b>.
-            <br />
-            <br />I have experience building dynamic and visually engaging web
-            applications using <b>React JS</b>, <b>TypeScript</b>, and{" "}
-            <b>Redux</b>. I love to create original projects with beautiful
-            designs — you can check out some of my work in the projects section.
-            <br />
-            <br />I am <b>open</b> to new collaborations or work where I can
-            contribute and grow. Feel free to connect with me — links are in the
-            footer.
-            <br />
-            Apart from coding, I love to do photography — you can check out some
-            of my shots here
+            Front-End Developer | React.js | TypeScript | JavaScript | Redux
+Motivated and detail-oriented Front-End Developer with 3 years of experience building responsive and dynamic web applications. Proficient in modern JavaScript frameworks, primarily React.js, with strong expertise in TypeScript, Redux for state management, and component-driven UI development. Adept at translating UI/UX designs into high-quality code, optimizing performance, and collaborating within Agile teams to deliver scalable, maintainable front-end solutions.
           </p>
         </div>
+        <div class='btn-cont'>
+  <a class='contact_me' style={{
+    border:"1px solid"
+  }} href='#'>
+ Contact Me    
+  </a>
+</div>
 
-        <div>
-          <Tilt>
-            <Lottie
-              className="illustration"
-              animationData={Coder}
-              loop={true}
-            />
-          </Tilt>
+<div class="ag-format-container">
+  <div class="ag-courses_box">
+    <div class="ag-courses_item">
+      <a href="#" class="ag-courses-item_link">
+        <div class="ag-courses-item_bg"></div>
+
+        <div class="ag-courses-item_title">
+          UI/Web&amp;Graph design for teenagers 11-17&#160;years old
         </div>
+
+        
+      </a>
+    </div>
+
+    <div class="ag-courses_item">
+      <a href="#" class="ag-courses-item_link">
+        <div class="ag-courses-item_bg"></div>
+
+        <div class="ag-courses-item_title">
+          UX/UI Web-Design&#160;+ Mobile Design
+        </div>
+
+        
+      </a>
+    </div>
+
+    <div class="ag-courses_item">
+      <a href="#" class="ag-courses-item_link">
+        <div class="ag-courses-item_bg"></div>
+
+        <div class="ag-courses-item_title">
+          Annual package "Product+UX/UI+Graph designer&#160;2022"
+        </div>
+
+        
+      </a>
+    </div>
+
+    <div class="ag-courses_item">
+      <a href="#" class="ag-courses-item_link">
+        <div class="ag-courses-item_bg"></div>
+
+        <div class="ag-courses-item_title">
+          Graphic Design
+        </div>
+
+       
+      </a>
+    </div>
+
+    <div class="ag-courses_item">
+      <a href="#" class="ag-courses-item_link">
+        <div class="ag-courses-item_bg"></div>
+
+        <div class="ag-courses-item_title">
+          Motion Design
+        </div>
+
+        
+      </a>
+    </div>
+
+    <div class="ag-courses_item">
+      <a href="#" class="ag-courses-item_link">
+        <div class="ag-courses-item_bg"></div>
+
+        <div class="ag-courses-item_title">
+          Front-end development&#160;+ jQuery&#160;+ CMS
+        </div>
+      </a>
+    </div>
+
+    <div class="ag-courses_item">
+      <a href="#" class="ag-courses-item_link">
+        <div class="ag-courses-item_bg">
+        </div>
+        <div class="ag-courses-item_title">
+          Digital Marketing
+        </div>
+      </a>
+    </div>
+
+    <div class="ag-courses_item">
+      <a href="#" class="ag-courses-item_link">
+        <div class="ag-courses-item_bg"></div>
+
+        <div class="ag-courses-item_title">
+          Interior Design
+        </div>
+
+        
+      </a>
+    </div>
+
+  </div>
+</div>
+
+        
       </div>
 
       <h1 className="SkillsHeading">Professional Skillset</h1>

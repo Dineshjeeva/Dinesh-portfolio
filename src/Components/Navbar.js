@@ -59,11 +59,7 @@ const Nav = () => {
         inesh
       </h1>
 
-      <div className="Hamburger" onClick={showMenu}>
-        <span className="bar"></span>
-        <span className="bar"></span>
-        <span className="bar"></span>
-      </div>
+      
 
       <ul className="NavbarLinks">
         <li onClick={hideMenu}>
@@ -87,6 +83,21 @@ const Nav = () => {
           </Link>
         </li>
       </ul>
+      <div class='btn-cont'>
+  <a class='btn' href='#'>
+Contact Me    <span class='line-1'></span>
+    <span class='line-2'></span>
+    <span class='line-3'></span>
+    <span class='line-4'></span>
+  </a>
+</div>
+
+
+      <div className="Hamburger" onClick={showMenu}>
+        <span className="bar"></span>
+        <span className="bar"></span>
+        <span className="bar"></span>
+      </div>
     </nav>
   );
 };
