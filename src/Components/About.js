@@ -18,13 +18,14 @@ const About = () => {
             Motivated and detail-oriented Front-End Developer with 3 years of experience building responsive and dynamic web applications. Proficient in modern JavaScript frameworks, primarily React.js, with strong expertise in TypeScript, Redux for state management, and component-driven UI development. 
 
           </p>
-          <p style={{margin:'1rem'}}>          Adept at translating UI/UX designs into high-quality code, optimizing performance, and collaborating within Agile teams to deliver scalable, maintainable front-end solutions.
+          <br />
+          <p >          Adept at translating UI/UX designs into high-quality code, optimizing performance, and collaborating within Agile teams to deliver scalable, maintainable front-end solutions.
 </p>
         </div>
         <div class='btn-cont'>
           <a class='contact_me' style={{
             border: "1px solid"
-          }} href='#'>
+          }} href='/Resume'>
             Contact Me
           </a>
         </div>
